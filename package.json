@@ -1,0 +1,43 @@
+{
+  "name": "dsh-plugin-install-guard",
+  "version": "0.1.0",
+  "description": "A DeepSeek Harness bundle that blocks in-session plugin installs until the plugin has been reviewed and explicitly allowlisted.",
+  "type": "module",
+  "license": "MIT",
+  "author": "ypl2000",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "cordis",
+    "security",
+    "supply-chain",
+    "guard",
+    "install"
+  ],
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0",
+    "dsh": ">=0.2.0-rc.2 || >=0.2.1-rc.2 || >=0.2.2-rc.1"
+  },
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/guard.test.mjs"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

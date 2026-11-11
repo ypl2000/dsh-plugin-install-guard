@@ -1,0 +1,3 @@
+- insert:
+    - id: plugin-install-guard
+      name: dsh-plugin-install-guard

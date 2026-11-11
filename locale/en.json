@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Plugin install guard",
+    "description": "Blocks in-session plugin installs until the package is reviewed and allowlisted."
+  }
+}
