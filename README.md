@@ -1,6 +1,6 @@
 # dsh-plugin-install-guard
 
-[![test](https://github.com/ypl2000/dsh-plugin-install-guard/actions/workflows/test.yml/badge.svg)](https://github.com/ypl2000/dsh-plugin-install-guard/actions/workflows/test.yml)
+[![test](https://github.com/ypl2000/dsh-plugin/actions/workflows/test.yml/badge.svg)](https://github.com/ypl2000/dsh-plugin/actions/workflows/test.yml)
 
 **会话内的插件安装闸。** 在 DeepSeek Harness 里，agent 每安装一个插件前，必须先完成安全审查并得到用户确认；否则安装命令在**执行前**被拒绝——Full access 会话也一样。
 
