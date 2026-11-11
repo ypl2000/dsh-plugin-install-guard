@@ -1,5 +1,7 @@
 # dsh-plugin-install-guard
 
+[![test](https://github.com/ypl2000/dsh-plugin-install-guard/actions/workflows/test.yml/badge.svg)](https://github.com/ypl2000/dsh-plugin-install-guard/actions/workflows/test.yml)
+
 **会话内的插件安装闸。** 在 DeepSeek Harness 里，agent 每安装一个插件前，必须先完成安全审查并得到用户确认；否则安装命令在**执行前**被拒绝——Full access 会话也一样。
 
 A DeepSeek Harness bundle that blocks agent-issued plugin installs until the package is reviewed and explicitly allowlisted. The denial happens before dispatch, so it also applies in Full access sessions.

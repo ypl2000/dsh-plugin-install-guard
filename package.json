@@ -5,6 +5,17 @@
   "type": "module",
   "license": "MIT",
   "author": "ypl2000",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ypl2000/dsh-plugin-install-guard.git"
+  },
+  "homepage": "https://github.com/ypl2000/dsh-plugin-install-guard#readme",
+  "bugs": {
+    "url": "https://github.com/ypl2000/dsh-plugin-install-guard/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "deepseek-harness",
     "dsh-plugin",
