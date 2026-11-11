@@ -7,11 +7,11 @@
   "author": "ypl2000",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ypl2000/dsh-plugin.git"
+    "url": "git+https://github.com/ypl2000/dsh-plugin-install-guard.git"
   },
-  "homepage": "https://github.com/ypl2000/dsh-plugin#readme",
+  "homepage": "https://github.com/ypl2000/dsh-plugin-install-guard#readme",
   "bugs": {
-    "url": "https://github.com/ypl2000/dsh-plugin/issues"
+    "url": "https://github.com/ypl2000/dsh-plugin-install-guard/issues"
   },
   "publishConfig": {
     "access": "public"
